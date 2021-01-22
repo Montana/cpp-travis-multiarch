@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/Montana/cpp-travis-ci.svg?branch=master)](https://travis-ci.com/Montana/cpp-travis-ci)
+[![Build Status](https://travis-ci.com/Montana/cpp-travis-multiarch.svg?branch=master)](https://travis-ci.com/Montana/cpp-travis-multiarch)
 
 # C++ Multi Arch Test 
 I'm testing various multi arch builds using C++. I'm using just a `hello.cpp` file that just reads:
