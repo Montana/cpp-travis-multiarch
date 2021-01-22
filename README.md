@@ -1,3 +1,5 @@
+https://travis-ci.com/Montana/cpp-travis-multiarch.svg?branch=master
+
 # C++ Multi Arch Test 
 I'm testing various multi arch builds using C++. I'm using just a `hello.cpp` file that just reads:
 
