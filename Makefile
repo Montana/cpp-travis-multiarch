@@ -36,5 +36,5 @@ info:
 	@echo " CXX = $(CXX)"
 	
 
-// Travis appears to be passing with this Makefile.
-// Happy with it, might make a more complex C++ file but for now this shows multi arch perfectly.
+# Travis appears to be passing with this Makefile.
+# Happy with it, might make a more complex C++ file but for now this shows multi arch perfectly.
