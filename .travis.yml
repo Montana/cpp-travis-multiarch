@@ -1,0 +1,15 @@
+os: linux
+dist: xenial
+language: cpp
+compiler: 
+  - gcc
+  - clang
+jobs:
+  include:
+   - os: linux
+     arch: ppc64le
+   - os: linux
+     arch: s390x
+     compiler: gcc
+      
+script: chmod u+x ./build.sh && ./build.sh
