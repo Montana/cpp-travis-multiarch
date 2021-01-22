@@ -23,7 +23,7 @@ hello:
 	@echo " mkdir -p $(BUILD_DIR)"
 	@mkdir -p $(BUILD_DIR)
 	@echo " $(CXX) $(CXXFLAGS) -o $(BUILD_DIR)/hello $(SRC_DIR)/hello.cpp"
-	$(CXX) $(CXXFLAGS) -o $(BUILD_DIR)/demo $(SRC_DIR)/hello.cpp
+	$(CXX) $(CXXFLAGS) -o $(BUILD_DIR)/hello $(SRC_DIR)/hello.cpp
 
 clean:
 	@rm -rf $(BUILD_DIR) 
